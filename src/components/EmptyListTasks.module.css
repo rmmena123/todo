@@ -1,0 +1,22 @@
+.emptyListTasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    color: var(--gray-300);
+}
+
+.emptyListTasks svg {
+    margin-bottom: 1rem;
+}
+
+.emptyListTasks p {
+    line-height: 1.4;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
