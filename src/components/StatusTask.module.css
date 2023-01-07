@@ -1,0 +1,26 @@
+.statusTask {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.createdTasks, .finishedTasks {
+    font-size: .875rem;
+    font-weight: bold;
+}
+
+.createdTasks span, .finishedTasks span {
+    color: var(--gray-200);
+    background: var(--gray-400);
+    padding: .125rem .5rem;
+    border-radius: var(--border-radius);
+}
+
+.createdTasks {
+    color: var(--blue);
+}
+
+.finishedTasks {
+    color: var(--purple);
+}
