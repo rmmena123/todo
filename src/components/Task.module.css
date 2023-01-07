@@ -1,0 +1,45 @@
+.task, .taskCompleted {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 0;
+    border-radius: var(--border-radius);
+    background: var(--gray-500);
+    margin-bottom: 1rem;
+    margin: .5rem 0;
+    gap: .5rem;
+}
+
+.circle, .checkCircle, .trash {
+    cursor: pointer;
+}
+
+.circle {
+    color: var(--blue);
+}
+
+.checkCircle circle {
+    color: var(--purple-dark);
+}
+
+.checkCircle polyline {
+    color: var(--gray-100);
+}
+
+.task p, .taskCompleted p {
+    font-size: .825rem;
+    line-height: 1.4;
+    width: 100%;
+}
+
+.trash {
+    color: var(--gray-300);
+}
+
+.taskCompleted p {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}

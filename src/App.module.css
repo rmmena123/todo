@@ -3,6 +3,10 @@
     margin: 2rem auto;
 }
 
+.tasksList {
+    margin-top: 3rem;
+}
+
 @media screen and (max-width: 768px) {
     .wrapper {
         padding: 0 1rem;

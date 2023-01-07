@@ -5,6 +5,7 @@ import { EmptyListTasks } from './components/EmptyListTasks'
 
 import './global.css'
 import styles from './App.module.css'
+import { Task } from './components/Task'
 
 function App() {
   return (
@@ -14,8 +15,12 @@ function App() {
       <div className={styles.wrapper}>
         <InsertTask />
         <StatusTask />
-        <EmptyListTasks />
 
+        <main className={styles.tasksList}>
+          <EmptyListTasks />
+          <Task isCompleted={false}/>
+          <Task isCompleted={true}/>
+        </main>
       </div>
     </div>
   )
