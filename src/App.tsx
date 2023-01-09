@@ -12,16 +12,9 @@ function App() {
     <div className="App">
       <Header />
 
-      <div className={styles.wrapper}>
+      <main className={styles.wrapper}>
         <InsertTask />
-        <StatusTask />
-
-        <main className={styles.tasksList}>
-          <EmptyListTasks />
-          <Task isCompleted={false}/>
-          <Task isCompleted={true}/>
-        </main>
-      </div>
+      </main>
     </div>
   )
 }
