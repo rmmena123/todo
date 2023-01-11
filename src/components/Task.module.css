@@ -13,6 +13,13 @@
     gap: .5rem;
 }
 
+.buttonCheck {
+    background: none;
+    border: 0;
+    width: auto;
+    height: auto;
+}
+
 .circle, .checkCircle, .trash {
     cursor: pointer;
 }

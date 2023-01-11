@@ -1,11 +1,8 @@
 import { Header } from './components/Header'
-import { InsertTask } from './components/InsertTask'
-import { StatusTask } from './components/StatusTask'
-import { EmptyListTasks } from './components/EmptyListTasks'
+import { InsertTaskList } from './components/InsertTaskList'
 
 import './global.css'
 import styles from './App.module.css'
-import { Task } from './components/Task'
 
 function App() {
   return (
@@ -13,7 +10,7 @@ function App() {
       <Header />
 
       <main className={styles.wrapper}>
-        <InsertTask />
+        <InsertTaskList />
       </main>
     </div>
   )
