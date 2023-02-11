@@ -1,8 +1,25 @@
+.header {
+    background-color: var(--gray-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 12.5rem;
+    position: relative;
+}
+
+.header img {
+    width: 8rem;
+}
+
 .insertTask {
     width: 100%;
+    max-width: 46rem;
     display: flex;
     justify-content: space-between;
-    margin-top: calc(-5px - 3.5rem);
+    margin-top: calc(-5px - 1.5rem);
+    position: absolute;
+    bottom: calc(-2.7rem / 2);
 }
 
 .insertTask input {
@@ -43,4 +60,10 @@
 
 .insertTask button:hover {
     background-color: var(--blue);
+}
+
+@media screen and (max-width: 768px) {
+    .insertTask {
+        padding: 0 1rem;
+    }
 }
